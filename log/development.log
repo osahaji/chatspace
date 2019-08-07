@@ -1,0 +1,1445 @@
+  [1m[35m (52.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE DATABASE `view_drill_development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `view_drill_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-08-04 20:04:11 +0900
+  [1m[35m (37.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 1028ms (Views: 1017.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-04 20:04:55 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (29.5ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-04 20:07:38 +0900
+  [1m[35m (23.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: header
+    2:   .header__logo
+    3:     SNS
+    4: .contents
+    5:   .contents__message
+  
+app/views/posts/index.html.haml:2
+Started GET "/" for ::1 at 2019-08-04 20:16:21 +0900
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 1524ms (Views: 1482.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-04 20:19:47 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 439ms (Views: 436.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-04 20:22:36 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 347ms (Views: 344.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-04 20:23:27 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-05 10:10:34 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 308ms (Views: 296.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 09:42:23 +0900
+  [1m[35m (45.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 236ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:13:16 +0900
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (127.7ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:3
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1862267551113255361_70177798093920'
+Started GET "/" for ::1 at 2019-08-06 10:16:45 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:3
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1862267551113255361_70177784173820'
+Started GET "/" for ::1 at 2019-08-06 10:17:54 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:3
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1862267551113255361_70177828165560'
+Started GET "/" for ::1 at 2019-08-06 10:19:15 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:3
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1862267551113255361_70177828651820'
+Started GET "/" for ::1 at 2019-08-06 10:21:23 +0900
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (24.2ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$white".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:3
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___2704599537909367226_70276335219980'
+Started GET "/" for ::1 at 2019-08-06 10:24:06 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$side_blue_dark".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/_posts.scss:6
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___2704599537909367226_70276367172800'
+Started GET "/" for ::1 at 2019-08-06 10:24:31 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 557ms (Views: 554.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:27:21 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (19.1ms)
+Completed 200 OK in 448ms (Views: 439.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:28:03 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:28:29 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:30:10 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 433ms (Views: 429.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:30:45 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (19.5ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 10:52:18 +0900
+  [1m[35m (23.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-06 10:52:55 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: config/reset.
+Load paths:
+  /Users/osanai_hajime/projects/view_drill/app/assets/config
+  /Users/osanai_hajime/projects/view_drill/app/assets/images
+  /Users/osanai_hajime/projects/view_drill/app/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/node_modules):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:23
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__938579864777532926_70146741181980'
+Started GET "/" for ::1 at 2019-08-06 10:59:33 +0900
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (54.2ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: posts.
+Load paths:
+  /Users/osanai_hajime/projects/view_drill/app/assets/config
+  /Users/osanai_hajime/projects/view_drill/app/assets/images
+  /Users/osanai_hajime/projects/view_drill/app/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/node_modules):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__938579864777532926_70146739553020'
+Started GET "/" for ::1 at 2019-08-06 11:00:02 +0900
+  [1m[35m (27.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (31.8ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: posts.
+Load paths:
+  /Users/osanai_hajime/projects/view_drill/app/assets/config
+  /Users/osanai_hajime/projects/view_drill/app/assets/images
+  /Users/osanai_hajime/projects/view_drill/app/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/node_modules):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3017108137116003830_70314853312620'
+Started GET "/" for ::1 at 2019-08-06 11:00:25 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: posts.
+Load paths:
+  /Users/osanai_hajime/projects/view_drill/app/assets/config
+  /Users/osanai_hajime/projects/view_drill/app/assets/images
+  /Users/osanai_hajime/projects/view_drill/app/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/node_modules):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:17
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3017108137116003830_70314891447620'
+Started GET "/" for ::1 at 2019-08-06 11:00:34 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (14.9ms)
+Completed 500 Internal Server Error in 478ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3017108137116003830_70314877725460'
+Started GET "/" for ::1 at 2019-08-06 11:01:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.1ms)
+  Rendered messages/index.html.haml within layouts/application (20.6ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3017108137116003830_70314877886720'
+Started GET "/" for ::1 at 2019-08-06 11:01:54 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (8.3ms)
+  Rendered messages/index.html.haml within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3017108137116003830_70314862358900'
+Started GET "/" for ::1 at 2019-08-06 11:02:16 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (20.2ms)
+  Rendered messages/index.html.haml within layouts/application (47.9ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__4467369733467967100_70150695884700'
+Started GET "/" for ::1 at 2019-08-06 11:05:21 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.1ms)
+  Rendered messages/index.html.haml within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 470ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__4467369733467967100_70150741585260'
+Started GET "/" for ::1 at 2019-08-06 11:05:39 +0900
+  [1m[35m (38.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (15.9ms)
+  Rendered messages/index.html.haml within layouts/application (44.3ms)
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___216481039109000158_70141686421100'
+Started GET "/" for ::1 at 2019-08-06 13:36:30 +0900
+  [1m[35m (66.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (14.8ms)
+  Rendered messages/index.html.haml within layouts/application (38.9ms)
+Completed 500 Internal Server Error in 245ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3247592284528671214_70333200530720'
+Started GET "/messages" for ::1 at 2019-08-06 13:36:33 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/messages" for ::1 at 2019-08-06 13:37:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-06 13:38:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.9ms)
+  Rendered messages/index.html.haml within layouts/application (25.5ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3247592284528671214_70333245446160'
+Started GET "/" for ::1 at 2019-08-06 13:43:37 +0900
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.7ms)
+  Rendered messages/index.html.haml within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3247592284528671214_70333244972260'
+Started GET "/" for ::1 at 2019-08-06 13:43:49 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.1ms)
+  Rendered messages/index.html.haml within layouts/application (26.1ms)
+Completed 500 Internal Server Error in 450ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$light_blue".):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/modules/chat.scss:26
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3247592284528671214_70333244539820'
+Started GET "/" for ::1 at 2019-08-06 13:45:43 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.5ms)
+  Rendered messages/index.html.haml within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3247592284528671214_70333196575100'
+Started GET "/" for ::1 at 2019-08-06 13:46:03 +0900
+  [1m[35m (22.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (22.7ms)
+  Rendered messages/index.html.haml within layouts/application (48.5ms)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3940388969288849859_70332492214660'
+Started GET "/" for ::1 at 2019-08-06 13:48:00 +0900
+  [1m[35m (41.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (18.4ms)
+  Rendered messages/index.html.haml within layouts/application (44.7ms)
+Completed 500 Internal Server Error in 330ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1069450218801976325_70294474989960'
+Started GET "/" for ::1 at 2019-08-06 13:49:07 +0900
+  [1m[35m (43.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (16.8ms)
+  Rendered messages/index.html.haml within layouts/application (43.0ms)
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3990345058676705663_70220434033780'
+Started GET "/" for ::1 at 2019-08-06 13:50:45 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (19.5ms)
+  Rendered messages/index.html.haml within layouts/application (52.7ms)
+Completed 500 Internal Server Error in 409ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__3385041593096937184_70217128866540'
+Started GET "/" for ::1 at 2019-08-06 13:54:21 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.9ms)
+  Rendered messages/index.html.haml within layouts/application (31.7ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__3385041593096937184_70217106375880'
+Started GET "/" for ::1 at 2019-08-06 13:55:06 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (13.8ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined mixin 'flexbox'.):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/messages/_messages.scss:2:in `flexbox'
+app/assets/stylesheets/messages/_messages.scss:2
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__3385041593096937184_70217147621180'
+Started GET "/" for ::1 at 2019-08-06 13:58:32 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.5ms)
+  Rendered messages/index.html.haml within layouts/application (43.8ms)
+Completed 500 Internal Server Error in 288ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__4589735998964487788_70261527389600'
+Started GET "/" for ::1 at 2019-08-06 13:59:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (8.0ms)
+  Rendered messages/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 651ms (Views: 642.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 14:06:06 +0900
+  [1m[35m (2.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (19.8ms)
+  Rendered messages/index.html.haml within layouts/application (73.6ms)
+Completed 200 OK in 187ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 14:06:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (12.1ms)
+  Rendered messages/index.html.haml within layouts/application (37.0ms)
+Completed 200 OK in 79ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 14:06:08 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (8.4ms)
+  Rendered messages/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 105ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 14:06:16 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (9.0ms)
+  Rendered messages/index.html.haml within layouts/application (23.9ms)
+Completed 200 OK in 64ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 14:06:17 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.7ms)
+  Rendered messages/index.html.haml within layouts/application (32.4ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-06 19:47:19 +0900
+  [1m[35m (25.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (11.6ms)
+  Rendered messages/index.html.haml within layouts/application (49.2ms)
+Completed 200 OK in 366ms (Views: 353.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (49.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (74.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (48.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('255280007840884110', 0)[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+Migrating to DeviseCreateUsers (20190807005246)
+  [1m[35m (46.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_users_on_name`  (`name`))[0m
+  ↳ db/migrate/20190807005246_devise_create_users.rb:5
+  [1m[35m (16.7ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  ↳ db/migrate/20190807005246_devise_create_users.rb:40
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  ↳ db/migrate/20190807005246_devise_create_users.rb:41
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190807005246')[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-08-07 00:55:27', '2019-08-07 00:55:27')[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (40.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('255280007840884110')[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/bin/rake:23
+Started GET "/" for ::1 at 2019-08-07 10:24:05 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 56ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-07 10:24:06 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.5ms)
+Completed 500 Internal Server Error in 801ms (ActiveRecord: 113.5ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: modules/user.
+Load paths:
+  /Users/osanai_hajime/projects/view_drill/app/assets/config
+  /Users/osanai_hajime/projects/view_drill/app/assets/images
+  /Users/osanai_hajime/projects/view_drill/app/assets/javascripts
+  /Users/osanai_hajime/projects/view_drill/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/font-awesome-rails-4.7.0.5/app/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bourbon-6.0.0/core
+  /Users/osanai_hajime/projects/view_drill/node_modules
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/images):
+     5:     %title ViewDrill
+     6:     = csrf_meta_tags
+     7:     = csp_meta_tag
+     8:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+     9:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    10:   %body
+    11:     = yield
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___1275280780033393349_70194747915980'
+Started GET "/users/sign_in" for ::1 at 2019-08-07 10:24:32 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 159ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:24:42 +0900
+Processing by MessagesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-07 10:24:42 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 74ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-07 10:25:32 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 93ms (Views: 35.7ms | ActiveRecord: 46.7ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:25:36 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.3ms)
+  Rendered messages/index.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:31:01 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.8ms)
+  Rendered messages/index.html.haml within layouts/application (29.1ms)
+Completed 200 OK in 73ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:31:03 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.1ms)
+  Rendered messages/index.html.haml within layouts/application (21.9ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:31:09 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 11 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+     6:     .header
+     7:       .left-header
+     8:         .left-header__title
+     9:            teamABC
+    10:         %ul.left-header__members
+    11:           Member：
+    12:           %li.member
+  
+app/views/messages/index.html.haml:9
+Started GET "/" for ::1 at 2019-08-07 10:31:30 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.4ms)
+  Rendered messages/index.html.haml within layouts/application (22.9ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:31:38 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.4ms)
+  Rendered messages/index.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:31:59 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.0ms)
+  Rendered messages/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:32:18 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.8ms)
+  Rendered messages/index.html.haml within layouts/application (20.2ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:32:46 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 7 levels deeper than the previous line.):
+    22:       .message
+    23:         .upper-message
+    24:           .upper-message__user-name
+    25:                         TEST太朗
+    26:           .upper-message__date
+    27:             2017/04/04
+    28:         .lower-meesage
+  
+app/views/messages/index.html.haml:25
+Started GET "/" for ::1 at 2019-08-07 10:32:56 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered messages/index.html.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 7 levels deeper than the previous line.):
+    22:       .message
+    23:         .upper-message
+    24:           .upper-message__user-name
+    25:                         TEST太朗
+    26:           .upper-message__date
+    27:             2017/04/04
+    28:         .lower-meesage
+  
+app/views/messages/index.html.haml:25
+Started GET "/" for ::1 at 2019-08-07 10:33:05 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.1ms)
+  Rendered messages/index.html.haml within layouts/application (20.3ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:33:26 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.8ms)
+  Rendered messages/index.html.haml within layouts/application (27.1ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:33:36 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.2ms)
+  Rendered messages/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 55ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:33:42 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.4ms)
+  Rendered messages/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 54ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:33:45 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.9ms)
+  Rendered messages/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:34:28 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (13.7ms)
+  Rendered messages/index.html.haml within layouts/application (40.3ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:34:44 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (8.3ms)
+  Rendered messages/index.html.haml within layouts/application (22.4ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:34:47 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.7ms)
+  Rendered messages/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:36:14 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.2ms)
+  Rendered messages/index.html.haml within layouts/application (28.3ms)
+Completed 200 OK in 86ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:36:17 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.7ms)
+  Rendered messages/index.html.haml within layouts/application (19.8ms)
+Completed 200 OK in 53ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:37:22 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (8.2ms)
+  Rendered messages/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:38:54 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.8ms)
+  Rendered messages/index.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:43:06 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (9.3ms)
+  Rendered messages/index.html.haml within layouts/application (32.1ms)
+Completed 200 OK in 115ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:46:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.0ms)
+  Rendered messages/index.html.haml within layouts/application (19.3ms)
+Completed 200 OK in 424ms (Views: 421.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:46:08 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.2ms)
+  Rendered messages/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/boards" for ::1 at 2019-08-07 10:53:15 +0900
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/boards"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-07 10:53:16 +0900
+Started GET "/boards" for ::1 at 2019-08-07 10:53:16 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/boards"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (2.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (11.2ms)
+  Rendered messages/index.html.haml within layouts/application (59.3ms)
+Completed 200 OK in 510ms (Views: 417.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 10:55:25 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.9ms)
+  Rendered messages/index.html.haml within layouts/application (19.5ms)
+Completed 200 OK in 435ms (Views: 429.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 13:34:15 +0900
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (52.0ms)
+  Rendered messages/index.html.haml within layouts/application (109.1ms)
+Completed 200 OK in 176ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 13:34:16 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.0ms)
+  Rendered messages/index.html.haml within layouts/application (48.2ms)
+Completed 200 OK in 101ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 13:36:39 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (11.6ms)
+  Rendered messages/index.html.haml within layouts/application (34.7ms)
+Completed 200 OK in 121ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 13:41:29 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.9ms)
+  Rendered messages/index.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 483ms (Views: 479.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 14:01:29 +0900
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (16.5ms)
+  Rendered messages/index.html.haml within layouts/application (77.4ms)
+Completed 200 OK in 171ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-07 15:09:56 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/osanai_hajime/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.6ms)
+  Rendered messages/index.html.haml within layouts/application (38.6ms)
+Completed 200 OK in 343ms (Views: 330.2ms | ActiveRecord: 0.0ms)
+
+
